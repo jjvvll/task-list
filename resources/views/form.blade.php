@@ -41,9 +41,9 @@
 
     <div>
         <label for="long_description">
-            Descripton
+            Long descripton
         </label>
-        <textarea name="long_description" id="long_description" rows="10">{{$task->long_description ?? old('long_3description')}}</textarea>
+        <textarea name="long_description" id="long_description" rows="10">{{$task->long_description ?? old('long_description')}}</textarea>
     </div>
     @error('long_description')
         <p class="error-message">{{$message}}</p>
